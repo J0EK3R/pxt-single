@@ -1,0 +1,29 @@
+{
+    "name": "mk-test",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "microphone": "*",
+        "mk6hub": "github:J0EK3R/pxt-mk6hub#33ab4b8db4647e529351c7c962057ff5a6693f70"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v7.0.51",
+        "tag": "v7.0.51",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/c3819f016bd720d0eb86efea9a84dcd4fc7b2e1f",
+        "target": "7.0.57",
+        "pxt": "11.1.5",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
